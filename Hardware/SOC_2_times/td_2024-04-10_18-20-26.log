@@ -1,0 +1,21 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = D:/Anlogic/TD5.6.2/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     24448
+   Run Date =   Wed Apr 10 18:20:26 2024
+
+   Run on =     CHOCODESKTOP
+============================================================
+RUN-1002 : start command "download -bit SOC_2_times_Runs\phy_1\SOC_2_times.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SOC_2_times_Runs/phy_1/SOC_2_times.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  7.412535s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (0.4%)
+
+RUN-1004 : used memory is 232 MB, reserved memory is 164 MB, peak memory is 265 MB
+RUN-1003 : finish command "download -bit SOC_2_times_Runs\phy_1\SOC_2_times.bit -mode jtag -spd 7 -sec 64 -cable 0" in  7.642803s wall, 0.093750s user + 0.000000s system = 0.093750s CPU (1.2%)
+
+RUN-1004 : used memory is 231 MB, reserved memory is 163 MB, peak memory is 265 MB
+GUI-1001 : Downloading succeeded!

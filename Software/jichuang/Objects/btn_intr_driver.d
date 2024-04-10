@@ -1,0 +1,10 @@
+.\objects\btn_intr_driver.o: drivers\source\btn_intr_driver.c
+.\objects\btn_intr_driver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\btn_intr_driver.o: .\drivers\Include\delay.h
+.\objects\btn_intr_driver.o: .\CMSDK_CM0\Include\CMSDK_CM0.h
+.\objects\btn_intr_driver.o: .\CMSIS\Include\core_cm0.h
+.\objects\btn_intr_driver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\btn_intr_driver.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\btn_intr_driver.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\btn_intr_driver.o: .\CMSDK_CM0\Include\system_CMSDK_CM0.h
+.\objects\btn_intr_driver.o: .\drivers\Include\btn_intr_driver.h

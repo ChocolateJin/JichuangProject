@@ -1,0 +1,67 @@
+standard
+***Report Model: soc_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        31
+  #input                    8
+  #output                   6
+  #inout                   17
+
+Gate Statistics
+#Basic gates            21411
+  #and                   9990
+  #nand                     0
+  #or                    2181
+  #nor                      0
+  #xor                     73
+  #xnor                     0
+  #buf                      0
+  #not                   6644
+  #bufif1                  17
+  #MX21                   636
+  #FADD                     0
+  #DFF                   1870
+  #LATCH                    0
+#MACRO_ADD                 18
+#MACRO_EQ                  66
+#MACRO_MULT                 1
+#MACRO_MUX                675
+#MACRO_OTHERS               2
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------+
+|Instance                          |Module                 |gates  |seq    |macros |
++----------------------------------------------------------------------------------+
+|top                               |soc_top                |19541  |1870   |87     |
+|  pll_u0                          |pll                    |0      |0      |0      |
+|  soc_cm0_u0                      |soc_cm0                |19539  |1837   |85     |
+|    ahb_dtcm                      |cmsdk_ahb_to_sram      |39     |56     |1      |
+|    ahb_itcm                      |cmsdk_ahb_to_sram      |39     |57     |1      |
+|    btn_interupt_generator_inst   |btn_interupt_generator |8      |40     |2      |
+|    cm0_u0                        |CORTEXM0INTEGRATION    |18508  |1301   |14     |
+|      u_logic                     |cortexm0ds_logic       |18508  |1301   |14     |
+|    cmsdk_ahb_gpio_u0             |cmsdk_ahb_gpio         |545    |177    |19     |
+|      u_ahb_to_gpio               |cmsdk_ahb_to_iop       |0      |17     |0      |
+|      u_iop_gpio                  |cmsdk_iop_gpio         |545    |160    |19     |
+|    cmsdk_apb_subsystem_u0        |cmsdk_apb_subsystem    |129    |154    |30     |
+|      gen_apb_uart_0$u_apb_uart_0 |cmsdk_apb_uart         |98     |116    |25     |
+|      u_ahb_to_apb                |cmsdk_ahb_to_apb       |8      |38     |4      |
+|      u_apb_slave_mux             |cmsdk_apb_slave_mux    |21     |0      |1      |
+|    dtcm_u0                       |dtcm                   |0      |0      |1      |
+|    itcm_u0                       |itcm                   |0      |0      |1      |
+|    mtx_lite_u0                   |cm0_mtx_lite           |222    |50     |16     |
+|      ucm0_mtx                    |cm0_mtx                |222    |50     |16     |
+|        u_cm0_mtx_decs0           |cm0_mtx_decS0          |64     |6      |16     |
+|          u_cm0_mtx_default_slave |cm0_mtx_default_slave  |4      |2      |0      |
+|        u_cm0_mtx_i_0             |cm0_mtx_i              |15     |37     |0      |
+|        u_cm0_mtx_o_0             |cm0_mtx_o              |44     |1      |0      |
+|          u_output_arb            |cm0_mtx_arb            |3      |1      |0      |
+|        u_cm0_mtx_o_1             |cm0_mtx_o              |44     |1      |0      |
+|          u_output_arb            |cm0_mtx_arb            |3      |1      |0      |
+|        u_cm0_mtx_o_2             |cm0_mtx_o              |24     |2      |0      |
+|          u_output_arb            |cm0_mtx_arb            |3      |1      |0      |
+|        u_cm0_mtx_o_3             |cm0_mtx_o              |23     |1      |0      |
+|          u_output_arb            |cm0_mtx_arb            |3      |1      |0      |
+|        u_cm0_mtx_o_4             |cm0_mtx_o              |8      |2      |0      |
+|          u_output_arb            |cm0_mtx_arb            |3      |1      |0      |
++----------------------------------------------------------------------------------+

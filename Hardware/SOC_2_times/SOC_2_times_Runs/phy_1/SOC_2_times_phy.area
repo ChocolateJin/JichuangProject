@@ -1,0 +1,114 @@
+standard
+***Report Model: soc_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        31
+  #input                    8
+  #output                   6
+  #inout                   17
+
+Utilization Statistics
+#lut                     6578   out of  19600   33.56%
+#reg                     1866   out of  19600    9.52%
+#le                      6607
+  #lut only              4741   out of   6607   71.76%
+  #reg only                29   out of   6607    0.44%
+  #lut&reg               1837   out of   6607   27.80%
+#dsp                        3   out of     29   10.34%
+#bram                      32   out of     64   50.00%
+  #bram9k                  32
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#pad                       31   out of    188   16.49%
+  #ireg                     6
+  #oreg                    18
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       1   out of     16    6.25%
+
+Clock Resource Statistics
+Index     ClockNet                          Type               DriverType         Driver                   Fanout
+#1        soc_cm0_u0/cm0_u0/u_logic/SCLK    GCLK               pll                pll_u0/pll_inst.clkc0    1427
+#2        swclk_dup_1                       GCLK               io                 swclk_syn_2.di           75
+#3        clk_dup_1                         GeneralRouting     io                 clk_syn_2.di             1
+
+
+Detailed IO Report
+
+           Name             Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+          btn[3]              INPUT        J13        LVCMOS33          N/A          PULLUP      IREG    
+          btn[2]              INPUT        G12        LVCMOS33          N/A          PULLUP      IREG    
+          btn[1]              INPUT        H14        LVCMOS33          N/A          PULLUP      IREG    
+          btn[0]              INPUT        L12        LVCMOS33          N/A          PULLUP      IREG    
+           clk                INPUT        K14        LVCMOS33          N/A          PULLUP      NONE    
+          rst_n               INPUT        G11        LVCMOS33          N/A          PULLUP      NONE    
+          swclk               INPUT         A8        LVCMOS33          N/A          PULLUP      NONE    
+        uart0_rxd             INPUT        F16        LVCMOS33          N/A          PULLUP      IREG    
+  btn_interrupt_debug[3]     OUTPUT        H16        LVCMOS33           8            N/A        NONE    
+  btn_interrupt_debug[2]     OUTPUT         C6        LVCMOS33           8            N/A        NONE    
+  btn_interrupt_debug[1]     OUTPUT        L13        LVCMOS33           8            N/A        NONE    
+  btn_interrupt_debug[0]     OUTPUT         R5        LVCMOS33           8            N/A        NONE    
+          led_1s             OUTPUT        T13        LVCMOS33           8            NONE       OREG    
+        uart0_txd            OUTPUT        E16        LVCMOS33           8            NONE       OREG    
+        gpio0[15]             INOUT        M16        LVCMOS33           8            N/A        OREG    
+        gpio0[14]             INOUT         F4        LVCMOS33           8            N/A        OREG    
+        gpio0[13]             INOUT        R15        LVCMOS33           8            N/A        OREG    
+        gpio0[12]             INOUT         H2        LVCMOS33           8            N/A        OREG    
+        gpio0[11]             INOUT         B8        LVCMOS33           8            N/A        OREG    
+        gpio0[10]             INOUT        K11        LVCMOS33           8            N/A        OREG    
+         gpio0[9]             INOUT         P6        LVCMOS33           8            N/A        OREG    
+         gpio0[8]             INOUT        G14        LVCMOS33           8            N/A        OREG    
+         gpio0[7]             INOUT         H5        LVCMOS33           8            N/A        OREG    
+         gpio0[6]             INOUT         N5        LVCMOS33           8           PULLUP      OREG    
+         gpio0[5]             INOUT         P4        LVCMOS33           8           PULLUP      OREG    
+         gpio0[4]             INOUT         M5        LVCMOS33           8           PULLUP      OREG    
+         gpio0[3]             INOUT         N4        LVCMOS33           8           PULLUP      OREG    
+         gpio0[2]             INOUT         N3        LVCMOS33           8           PULLUP      OREG    
+         gpio0[1]             INOUT         M4        LVCMOS33           8           PULLUP      OREG    
+         gpio0[0]             INOUT         M3        LVCMOS33           8           PULLUP      OREG    
+          swdio               INOUT         A7        LVCMOS33           8           PULLUP      IREG    
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------+
+|Instance                          |Module                 |le     |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------+
+|top                               |soc_top                |6607   |6476    |102     |1890    |48      |3       |
+|  pll_u0                          |pll                    |0      |0       |0       |0       |0       |0       |
+|  soc_cm0_u0                      |soc_cm0                |6558   |6437    |93      |1835    |48      |3       |
+|    ahb_dtcm                      |cmsdk_ahb_to_sram      |46     |46      |0       |28      |0       |0       |
+|    ahb_itcm                      |cmsdk_ahb_to_sram      |115    |115     |0       |43      |0       |0       |
+|    btn_interupt_generator_inst   |btn_interupt_generator |48     |25      |9       |32      |0       |0       |
+|    cm0_u0                        |CORTEXM0INTEGRATION    |5606   |5527    |65      |1396    |0       |3       |
+|      u_logic                     |cortexm0ds_logic       |5606   |5527    |65      |1396    |0       |3       |
+|    cmsdk_ahb_gpio_u0             |cmsdk_ahb_gpio         |184    |184     |0       |120     |0       |0       |
+|      u_ahb_to_gpio               |cmsdk_ahb_to_iop       |14     |14      |0       |14      |0       |0       |
+|      u_iop_gpio                  |cmsdk_iop_gpio         |170    |170     |0       |106     |0       |0       |
+|    cmsdk_apb_subsystem_u0        |cmsdk_apb_subsystem    |248    |236     |12      |149     |0       |0       |
+|      gen_apb_uart_0$u_apb_uart_0 |cmsdk_apb_uart         |212    |200     |12      |116     |0       |0       |
+|      u_ahb_to_apb                |cmsdk_ahb_to_apb       |36     |36      |0       |33      |0       |0       |
+|    dtcm_u0                       |dtcm                   |55     |55      |0       |11      |32      |0       |
+|    itcm_u0                       |itcm                   |64     |64      |0       |9       |16      |0       |
+|    mtx_lite_u0                   |cm0_mtx_lite           |184    |177     |7       |43      |0       |0       |
+|      ucm0_mtx                    |cm0_mtx                |184    |177     |7       |43      |0       |0       |
+|        u_cm0_mtx_decs0           |cm0_mtx_decS0          |24     |17      |7       |4       |0       |0       |
+|        u_cm0_mtx_i_0             |cm0_mtx_i              |154    |154     |0       |33      |0       |0       |
+|        u_cm0_mtx_o_1             |cm0_mtx_o              |2      |2       |0       |2       |0       |0       |
+|          u_output_arb            |cm0_mtx_arb            |2      |2       |0       |2       |0       |0       |
+|        u_cm0_mtx_o_3             |cm0_mtx_o              |2      |2       |0       |2       |0       |0       |
+|          u_output_arb            |cm0_mtx_arb            |2      |2       |0       |2       |0       |0       |
+|        u_cm0_mtx_o_4             |cm0_mtx_o              |2      |2       |0       |2       |0       |0       |
++---------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       3467  
+    #2         2       1854  
+    #3         3       589   
+    #4         4       522   
+    #5        5-10     723   
+    #6       11-50     436   
+    #7       51-100     28   
+    #8        >500      1    
+  Average     3.64           

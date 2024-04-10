@@ -1,0 +1,59 @@
+Dependencies for Project 'jichuang', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x661666FC)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSDK_CM0\Include -I .\CMSIS\Include -I .\drivers\Include-I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DCMSDK_CM0-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSDK_CM0\Include\CMSDK_CM0.h)(0x661666D9)
+I (.\CMSIS\Include\core_cm0.h)(0x65FBBE70)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x65FBBE70)
+I (.\CMSIS\Include\core_cmFunc.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x65FBBE70)
+I (.\drivers\Include\delay.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\CMSDK_driver.h)(0x65FBBE70)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\drivers\Include\btn_intr_driver.h)(0x66165A56)
+F (.\CMSDK_CM0\Source\CMSDK_driver.c)(0x65FBBE70)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSDK_CM0\Include -I .\CMSIS\Include -I .\drivers\Include-I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DCMSDK_CM0-o .\objects\cmsdk_driver.o --omf_browse .\objects\cmsdk_driver.crf --depend .\objects\cmsdk_driver.d)
+I (.\CMSDK_CM0\Include\CMSDK_CM0.h)(0x661666D9)
+I (.\CMSIS\Include\core_cm0.h)(0x65FBBE70)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x65FBBE70)
+I (.\CMSIS\Include\core_cmFunc.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x65FBBE70)
+F (.\drivers\Source\delay.c)(0x65FBBE70)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSDK_CM0\Include -I .\CMSIS\Include -I .\drivers\Include-I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DCMSDK_CM0-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\drivers\Include\delay.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\CMSDK_CM0.h)(0x661666D9)
+I (.\CMSIS\Include\core_cm0.h)(0x65FBBE70)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x65FBBE70)
+I (.\CMSIS\Include\core_cmFunc.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x65FBBE70)
+F (.\retarget.c)(0x65FBBE70)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSDK_CM0\Include -I .\CMSIS\Include -I .\drivers\Include-I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DCMSDK_CM0-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x5CEB79D6)
+I (D:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5CEB79D6)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+F (.\uart_stdout.c)(0x65FBBE70)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSDK_CM0\Include -I .\CMSIS\Include -I .\drivers\Include-I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DCMSDK_CM0-o .\objects\uart_stdout.o --omf_browse .\objects\uart_stdout.crf --depend .\objects\uart_stdout.d)
+I (.\CMSDK_CM0\Include\CMSDK_CM0.h)(0x661666D9)
+I (.\CMSIS\Include\core_cm0.h)(0x65FBBE70)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x65FBBE70)
+I (.\CMSIS\Include\core_cmFunc.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x65FBBE70)
+F (.\drivers\source\btn_intr_driver.c)(0x66166733)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSDK_CM0\Include -I .\CMSIS\Include -I .\drivers\Include-I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DCMSDK_CM0-o .\objects\btn_intr_driver.o --omf_browse .\objects\btn_intr_driver.crf --depend .\objects\btn_intr_driver.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\drivers\Include\delay.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\CMSDK_CM0.h)(0x661666D9)
+I (.\CMSIS\Include\core_cm0.h)(0x65FBBE70)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x65FBBE70)
+I (.\CMSIS\Include\core_cmFunc.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x65FBBE70)
+I (.\drivers\Include\btn_intr_driver.h)(0x66165A56)
+F (.\CMSDK_CM0\Source\system_CMSDK_CM0.c)(0x65FBBE70)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\CMSDK_CM0\Include -I .\CMSIS\Include -I .\drivers\Include-I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DCMSDK_CM0-o .\objects\system_cmsdk_cm0.o --omf_browse .\objects\system_cmsdk_cm0.crf --depend .\objects\system_cmsdk_cm0.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSDK_CM0\Include\CMSDK_CM0.h)(0x661666D9)
+I (.\CMSIS\Include\core_cm0.h)(0x65FBBE70)
+I (.\CMSIS\Include\core_cmInstr.h)(0x65FBBE70)
+I (.\CMSIS\Include\core_cmFunc.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x65FBBE70)
+I (.\CMSDK_CM0\Include\CMSDK_driver.h)(0x65FBBE70)
+F (.\CMSDK_CM0\Source\ARM\startup_CMSDK_CM0.s)(0x66166323)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\24448\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "CMSDK_CM0 SETA 1"--list .\listings\startup_cmsdk_cm0.lst --xref -o .\objects\startup_cmsdk_cm0.o --depend .\objects\startup_cmsdk_cm0.d)

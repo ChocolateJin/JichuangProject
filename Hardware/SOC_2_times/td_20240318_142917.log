@@ -1,0 +1,12 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = D:/Anlogic/TD5.6.2/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     24448
+   Run Date =   Mon Mar 18 14:29:17 2024
+
+   Run on =     CHOCODESKTOP
+============================================================
+RUN-001 : GUI based run...
+GUI-2000 : The IP files have been created successfully :{EG4S20BG256(E:/VivadoProject/jichuang/SOC_2_times/al_ip/pll.ipc)}
